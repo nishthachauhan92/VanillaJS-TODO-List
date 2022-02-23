@@ -17,11 +17,10 @@ function handleClickDeleteOrCheck(e) {
 }
 
 function handleclearAll(e) {
- 
- if (confirm("Do you want to clear all?") == true) {
-  document.querySelector('ul').innerHTML = ''
- }
-  
+ alert("Do you want to clear all the items");
+
+ document.querySelector('ul').innerHTML = ''
+
 }
 
 function addTodo(todo) {
