@@ -1,7 +1,7 @@
 html {
   min-height: 100vh;
   min-width: 600px;
-  background-color: black;
+  background-image: linear-gradient(130deg, #fff, #2e933c);
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -26,7 +26,7 @@ html {
 
 .main {
   padding: 20px;
-  background-color: #020024;
+  background-color: #283618;
   border-radius: 5px;
 }
 
