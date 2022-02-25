@@ -17,10 +17,7 @@ function handleClickDeleteOrCheck(e) {
 }
 
 function handleclearAll(e) {
- alert("Do you want to clear all the items");
-
- document.querySelector('ul').innerHTML = ''
-
+  document.querySelector('ul').innerHTML = ''
 }
 
 function addTodo(todo) {
